@@ -8,3 +8,7 @@ const lastName = "Johnson";
 const initials = ``;
 
 // https://www.google.com/search?q=get+first+character+of+string+mdn
+
+const firstChar = text[0];
+
+console,log(firstChar);
