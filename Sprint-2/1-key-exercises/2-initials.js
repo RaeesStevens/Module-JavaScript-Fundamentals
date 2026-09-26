@@ -11,4 +11,5 @@ const initials = ``;
 
 const firstChar = text[0];
 
-console,log(firstChar);
+console,log(initials);
+
