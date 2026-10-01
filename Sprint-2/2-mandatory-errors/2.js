@@ -2,5 +2,5 @@
 // what's the error ?
 
 const cityOfBirth = "Bolton";
-console.log("I was born in ${cityOfBirth}");
+console.log(`I was born in ${cityOfBirth}`);
 
