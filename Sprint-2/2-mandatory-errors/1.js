@@ -2,3 +2,5 @@
 
 const age = 33;
 let age = age + 1;
+
+console.log(age);
