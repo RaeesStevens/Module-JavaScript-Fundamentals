@@ -2,7 +2,7 @@ let carPrice = "10,000";
 let priceAfterOneYear = "8,543";
 
 carPrice = Number(carPrice.replaceAll(",", ""));
-priceAfterOneYear = Number(priceAfterOneYear.replaceAll("," ""));
+priceAfterOneYear = Number(priceAfterOneYear.replaceAll(",",""));
 
 const priceDifference = carPrice - priceAfterOneYear;
 const percentageChange = (priceDifference / carPrice) * 100;
@@ -19,7 +19,7 @@ console.log(`The percentage change is ${percentageChange}`);
 
 
 // b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
-
+// The error is coming from line 5. There is a separator missing from the function call. Insert a comma to fix the problem.
 // c) Identify all the lines that are variable reassignment statements
 
 // d) Identify all the lines that are variable declarations
