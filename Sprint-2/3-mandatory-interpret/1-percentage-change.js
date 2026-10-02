@@ -12,7 +12,7 @@ console.log(`The percentage change is ${percentageChange}`);
 // Read the code and then answer the questions below
 
 // a) How many function calls are there in this file? Write down all the lines where a function call is made
-// There are 3 function calls. 
+// There are 5 function calls. 
 // carPrice = Number(carPrice.replaceAll(",", ""));
 // priceAfterOneYear = Number(priceAfterOneYear.replaceAll("," ""));
 // console.log(`The percentage change is ${percentageChange}`);
@@ -20,6 +20,7 @@ console.log(`The percentage change is ${percentageChange}`);
 
 // b) Run the code and identify the line where the error is coming from - why is this error occurring? How can you fix this problem?
 // The error is coming from line 5. There is a separator missing from the function call. Insert a comma to fix the problem.
+
 // c) Identify all the lines that are variable reassignment statements
 
 // d) Identify all the lines that are variable declarations
