@@ -19,6 +19,7 @@ form {
   border-radius: 1em;
   box-sizing: border-box;
   width: 100%;
+  padding: 1em;
 }
 
 .field-row {
