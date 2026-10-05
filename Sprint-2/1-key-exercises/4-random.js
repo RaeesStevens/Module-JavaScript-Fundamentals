@@ -11,4 +11,4 @@ const num = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 console.log(num);
 
 // num represents any randomly generated number between 1 and 100. 
-// Math.random pulls a random decimal, Math.floor rounds down to nearest whole number, (maximum - minimum + 1) sets the range, adding the minimum of 1 at the end allows for the possibility of a random number being 100 instead of 99.
+// Math.random pulls a random decimal, Math.floor rounds down to nearest whole number, (maximum - minimum + 1) sets the range of 0-99.
