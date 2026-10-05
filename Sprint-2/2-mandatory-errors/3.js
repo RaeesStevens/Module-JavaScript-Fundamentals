@@ -11,4 +11,5 @@ const last4Digits = String(cardNumber).slice(-4);
 // Card Number is declared as a number and not a string, so slice won't work.
 console.log(last4Digits);
 // Yes this is what I predicted. The error is - cardNumber.slice is not a function.
-// I used a template literal because it will automatically convert the number to a string before slicing.
+// I used String() to convert the number to a string before slicing.
+
